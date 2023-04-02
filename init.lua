@@ -80,5 +80,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+    --require("user.plugins.dap").setup()
+    --require("user.plugins.config.dap.csharp").setup()
   end,
 }
