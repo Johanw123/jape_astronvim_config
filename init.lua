@@ -18,7 +18,7 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "onedark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
@@ -82,5 +82,6 @@ return {
     -- }
     --require("user.plugins.dap").setup()
     --require("user.plugins.config.dap.csharp").setup()
+   vim.g.OmniSharp_highlighting = 0 
   end,
 }
